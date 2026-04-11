@@ -56,12 +56,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_ORG/opencode-filter.git"
+    "url": "https://github.com/karti-ai/opencode-filter.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_ORG/opencode-filter/issues"
+    "url": "https://github.com/karti-ai/opencode-filter/issues"
   },
-  "homepage": "https://github.com/YOUR_ORG/opencode-filter#readme",
+  "homepage": "https://github.com/karti-ai/opencode-filter#readme",
   "devDependencies": {
     "@opencode-ai/plugin": "file:/home/metal/.opencode/node_modules/@opencode-ai/plugin",
     "@opencode-ai/sdk": "file:/home/metal/.opencode/node_modules/@opencode-ai/sdk",
