@@ -549,3 +549,9 @@ SOFTWARE.
 ---
 
 **Security Note**: This filter provides defense-in-depth but is not a substitute for proper secret management. Always use dedicated secret management solutions (like HashiCorp Vault, AWS Secrets Manager, or environment variables) for production credentials.
+
+---
+
+<p align="center">
+  Built with ❤️ by <a href="https://github.com/karti-ai">Karti AI</a>
+</p>
