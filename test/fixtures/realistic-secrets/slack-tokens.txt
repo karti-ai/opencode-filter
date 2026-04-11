@@ -1,0 +1,29 @@
+# Slack Tokens - Realistic Format (All Revoked/Expired/Fake)
+# Format: xox[baprs]-[0-9]{10,13}-[0-9]{10,13}-[a-zA-Z0-9]{24}
+# Source: Slack API Documentation, Slack Secret Scanning
+
+# Bot Tokens (xoxb-) - Used by bots to connect to Slack
+xoxb-1234567890123-1234567890123-aBcDeFgHiJkLmNoPqRsTuVwX
+xoxb-4567890123456-4567890123456-bCdEfGhIjKlMnOpQrStUvWxY
+xoxb-7890123456789-7890123456789-cDeFgHiJkLmNoPqRsTuVwXyZ
+xoxb-0123456789012-0123456789012-dEfGhIjKlMnOpQrStUvWxYz0
+xoxb-2345678901234-2345678901234-eFgHiJkLmNoPqRsTuVwXyZ01
+
+# User Tokens (xoxp-) - OAuth user access tokens
+xoxp-1234567890123-1234567890123-1234567890123-a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+xoxp-4567890123456-4567890123456-4567890123456-b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7
+xoxp-7890123456789-7890123456789-7890123456789-c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8
+
+# App Tokens (xapp-) - Slack app-level tokens
+xapp-1-A1234567890-1234567890123-aBcDeFgHiJkLmNoPqRsTuVwXyZ1234567890AbCdEfGh
+xapp-1-B2345678901-2345678901234-bCdEfGhIjKlMnOpQrStUvWxYz0123456789BcDeFgHi
+xapp-1-C3456789012-3456789012345-cDeFgHiJkLmNoPqRsTuVwXyZ012345678901CdEfGhIj
+
+# Refresh Tokens (xoxr-) - OAuth refresh tokens
+xoxr-1234567890123-a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+xoxr-4567890123456-b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7
+
+# Webhook URLs (not tokens but contain secrets)
+https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+https://hooks.slack.com/services/T12345678/B12345678/AbCdEfGhIjKlMnOpQrStUvWx
+https://hooks.slack.com/services/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

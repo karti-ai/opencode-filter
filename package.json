@@ -1,0 +1,77 @@
+{
+  "name": "opencode-filter",
+  "version": "2.0.0",
+  "description": "Security-first secret filtering for OpenCode - prevents API keys and credentials from leaking to AI models",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/server.js",
+      "types": "./dist/server.d.ts"
+    },
+    "./server": {
+      "import": "./dist/server.js",
+      "types": "./dist/server.d.ts"
+    },
+    "./tui": {
+      "import": "./dist/tui.js",
+      "types": "./dist/tui.d.ts"
+    }
+  },
+  "oc-plugin": [
+    ["server", { "enabled": true }],
+    ["tui", { "compact": false }]
+  ],
+  "bin": {
+    "opencode-filter": "dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE",
+    "filter.config.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "dev": "tsc --watch",
+    "prepare": "npm run build",
+    "benchmark": "bun run benchmarks/performance.ts",
+    "init": "bun run dist/cli.js init"
+  },
+  "keywords": [
+    "opencode",
+    "filter",
+    "security",
+    "secrets",
+    "privacy",
+    "protection",
+    "ai",
+    "agent"
+  ],
+  "author": "Karti Tripathi <karti@karti.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_ORG/opencode-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_ORG/opencode-filter/issues"
+  },
+  "homepage": "https://github.com/YOUR_ORG/opencode-filter#readme",
+  "devDependencies": {
+    "@opencode-ai/plugin": "file:/home/metal/.opencode/node_modules/@opencode-ai/plugin",
+    "@opencode-ai/sdk": "file:/home/metal/.opencode/node_modules/@opencode-ai/sdk",
+    "@types/node": "^20.19.39",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

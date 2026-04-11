@@ -1,0 +1,38 @@
+# Database Connection Strings - Realistic Format (All Fake Credentials)
+# Source: Various Database Documentation, Connection String Patterns
+
+# PostgreSQL Connection Strings
+postgres://user:password123@localhost:5432/mydb
+postgresql://admin:secret456@db.example.com:5432/production
+postgres://app_user:app_pass_789@postgres.internal:5432/app_db?sslmode=require
+postgres://readonly:ro_pass_123@replica.postgres.com:5432/analytics
+postgres://migration:migrate_456@primary.db.internal:5432/main
+
+# MySQL Connection Strings
+mysql://user:password@localhost:3306/database
+mysql://admin:admin123@mysql.example.com:3306/production_db
+mysql://app:app_secret@db.internal:3306/app_database?charset=utf8mb4
+mysql://readonly:ro_password@replica.mysql.com:3306/analytics_db
+mysql://backup:backup_pass@backup.mysql.internal:3306/backup_db
+
+# MongoDB Connection Strings
+mongodb://user:password@localhost:27017/mydb
+mongodb://admin:admin123@mongo.example.com:27017/production?authSource=admin
+mongodb+srv://app_user:app_pass@cluster.mongodb.net/app_database?retryWrites=true
+mongodb://readonly:ro_pass@replica.mongodb.com:27017/analytics
+mongodb://backup:backup123@backup.mongo.internal:27017/backup_db
+
+# Redis Connection Strings
+redis://:password123@localhost:6379/0
+redis://:redis_pass_456@redis.example.com:6379/0
+redis://app:app_redis_pass@redis.internal:6379/1
+redis://localhost:6379/0 (no auth - development only)
+redis://:complex_redis_password_789@sentinel.redis.internal:26379
+
+# Amazon RDS Connection Strings
+postgres://dbadmin:dbadmin123@mydb.abc123xyz.us-east-1.rds.amazonaws.com:5432/mydb
+mysql://admin:rds_password@prod-mysql.abc123xyz.us-west-2.rds.amazonaws.com:3306/production
+
+# Connection strings with special characters (URL encoded)
+postgres://user:p%40ssw%23rd%21@localhost:5432/mydb
+mysql://admin:pass%26word%3D123@localhost:3306/db

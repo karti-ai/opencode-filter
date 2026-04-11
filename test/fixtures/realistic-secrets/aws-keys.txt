@@ -1,0 +1,66 @@
+# AWS Access Keys - Realistic Format (All Revoked/Expired/Fake)
+# Format: AKIA[0-9A-Z]{16} (20 characters total, starting with AKIA)
+# Source: AWS Documentation Examples, TruffleHog Test Data
+
+# Example 1: Standard AWS Access Key ID (from AWS docs)
+AKIAIOSFODNN7EXAMPLE
+
+# Example 2: Another AWS Access Key ID
+AKIAI44QH8DHBEXAMPLE
+
+# Example 3: AWS Access Key with numeric suffix
+AKIA1234567890ABCDEF
+
+# Example 4: Development account key (fake)
+AKIADEVELOPER1234567
+
+# Example 5: Test environment key (fake)
+AKIATESTENVIRONMENT8
+
+# Example 6: Production placeholder (fake)
+AKIAPRODUCTIONENV123
+
+# Example 7: CI/CD pipeline key (fake/revoked)
+AKIACICDPIPELINE1234
+
+# Example 8: Backup service key (fake)
+AKIABACKUPSERVICE987
+
+# Example 9: Monitoring key (fake)
+AKIAMONITORINGTOOL56
+
+# Example 10: Logging service key (fake)
+AKIALOGGINGSERVICE78
+
+# Example 11: Notification service key (fake)
+AKIANOTIFICATIONSVC9
+
+# Example 12: Analytics service key (fake)
+AKIAANALYTICSSERVC01
+
+# Example 13: Storage service key (fake)
+AKIASTORAGESERVICE02
+
+# Example 14: Compute service key (fake)
+AKIACOMPUTESERVICE03
+
+# Example 15: Database service key (fake)
+AKIADATABASESERV04
+
+# AWS Secret Access Keys (40-character base64-like strings)
+# These are FAKE/EXAMPLE keys only
+
+# Example Secret Key 1 (from AWS docs)
+wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+# Example Secret Key 2
+xJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+# Example Secret Key 3 (fake)
+aB1cD2eF3gH4iJ5kL6mN7oP8qR9sT0uV1wX2yZ3
+
+# Example Secret Key 4 (fake)
+zY9xW8vU7tS6rQ5pO4nM3lK2jI1hG0fE9dC8bA7
+
+# Example Secret Key 5 (fake)
+AbCdEfGhIjKlMnOpQrStUvWxYz1234567890AbCd

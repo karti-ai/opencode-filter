@@ -1,0 +1,43 @@
+# GitHub Tokens - Realistic Format (All Revoked/Expired/Fake)
+# Format: ghp_[a-zA-Z0-9]{36} (40 characters total)
+# Source: GitHub Secret Scanning Patterns, GitHub Docs
+
+# Personal Access Tokens (classic)
+ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000
+ghp_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1111
+ghp_bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb2222
+ghp_cccccccccccccccccccccccccccccccccccc3333
+ghp_dddddddddddddddddddddddddddddddddddd4444
+
+# Fine-grained Personal Access Tokens
+ghp_efgh1234efgh5678efgh9012efgh3456efgh7890
+ghp_ijkl5678ijkl9012ijkl3456ijkl7890ijkl1234
+ghp_mnop9012mnop3456mnop7890mnop1234mnop5678
+ghp_qrst3456qrst7890qrst1234qrst5678qrst9012
+
+# OAuth Access Tokens
+gho_wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww5555
+gho_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx6666
+gho_yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy7777
+gho_zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz8888
+
+# GitHub App Installation Access Tokens
+ghs_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa9999
+ghs_bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0000
+ghs_cccccccccccccccccccccccccccccccccccc1111
+
+# GitHub App User Access Tokens
+ghu_dddddddddddddddddddddddddddddddddddd2222
+ghu_eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3333
+
+# GitHub App Refresh Tokens
+ghr_ffffffffffffffffffffffffffffffffffff4444
+ghr_gggggggggggggggggggggggggggggggggggg5555
+
+# GitHub App User-to-Server Tokens
+ghu_hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh6666
+ghu_iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii7777
+
+# Server-to-Server Tokens
+ghs_jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj8888
+ghs_kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk9999

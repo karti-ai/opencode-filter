@@ -1,0 +1,36 @@
+# Stripe API Keys - Realistic Format (All Revoked/Expired/Fake)
+# Format: sk_live_[0-9a-zA-Z]{24,} or sk_test_[0-9a-zA-Z]{24,}
+# Source: Stripe API Documentation, Stripe Secret Scanning
+
+# Live Secret Keys (sk_live_) - REVOKED/FAKE ONLY
+sk_live_abcdefghijklmnopqrstuvwxyz123456
+sk_live_51abcdefghijklmnopqrstuvwx123456789
+sk_live_abcdefghijklmnopqrstuvwxyzABCDEFG
+sk_live_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456
+sk_live_0123456789abcdefghijklmnopqrstuv
+
+# Test Secret Keys (sk_test_)
+sk_test_abcdefghijklmnopqrstuvwxyz123456
+sk_test_51abcdefghijklmnopqrstuvwx123456789
+sk_test_abcdefghijklmnopqrstuvwxyzABCDEFG
+sk_test_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456
+sk_test_0123456789abcdefghijklmnopqrstuv
+
+# Live Publishable Keys (pk_live_) - Safe to share but included for completeness
+pk_live_abcdefghijklmnopqrstuvwxyz123456
+pk_live_51abcdefghijklmnopqrstuvwx123456789
+
+# Test Publishable Keys (pk_test_)
+pk_test_abcdefghijklmnopqrstuvwxyz123456
+pk_test_51abcdefghijklmnopqrstuvwx123456789
+
+# Restricted API Keys (rk_live_ and rk_test_)
+rk_live_abcdefghijklmnopqrstuvwxyz1234567890
+rk_test_abcdefghijklmnopqrstuvwxyz1234567890
+
+# Stripe Connect Keys
+sk_live_acct_1234567890abcdefghijklmnopqrstuvwxyz1234567890
+
+# Webhook Endpoint Secrets (whsec_)
+whsec_abcdefghijklmnopqrstuvwxyz1234567890abcdef
+whsec_1234567890abcdefghijklmnopqrstuvwxyz123456
